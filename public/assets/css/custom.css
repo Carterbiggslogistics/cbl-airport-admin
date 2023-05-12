@@ -1,0 +1,62 @@
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+/*# sourceMappingURL=custom.css.map */
+
+.data-canceled-row {
+  color: #7d7878;
+}
+
+.data-canceled-row .badge.badge-secondary {
+  background-color: #6c757d;
+}
+
+.custom-overflow-ellipsis-no-wrap {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-badge-secondary {
+  background-color: #adadad;
+  color: white;
+}
+
+/* Oxygen plant cylinder card */
+.oxygen-plant-cylinder-card {
+  position: relative;
+}
+
+.oxygen-plant-cylinder-card > .hover-details {
+  background: rgba(255, 255, 255, 0.95);
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 3px;
+  z-index: 10;
+  overflow: hidden;
+  overflow-y: auto;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in;
+}
+
+.oxygen-plant-cylinder-card:hover > .hover-details {
+  opacity: 1;
+}
+
+.oxygen-plant-cylinder-card > .hover-details > .head,
+.oxygen-plant-cylinder-card > .hover-details > .body {
+  align-items: center;
+  height: 2rem;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 0 1.5rem;
+}
+.oxygen-plant-cylinder-card > .hover-details > .head {
+  background: rgb(80, 80, 80);
+  color: white;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "admin": "CBL"
+    },
+    {
+        "id": 2,
+        "admin": "LSB"
+    },
+    {
+        "id": 3,
+        "admin": "SURGE"
+    },
+    {
+        "id": 4,
+        "admin": "LAB"
+    },
+    {
+        "id": 5,
+        "admin": "SUPERVISOR"
+    },
+    {
+        "id": 6,
+        "admin": "PROFILER"
+    },
+    {
+        "id": 7,
+        "admin": "EKOCARE"
+    },
+    {
+        "id": 8,
+        "admin": "LGA"
+    },
+    {
+        "id": 9,
+        "admin": "MMIA AGENTS"
+    },
+    {
+        "id": 10,
+        "admin": "OXYGEN_SUPPLIER"
+    }
+]
